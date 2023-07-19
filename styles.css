@@ -24,7 +24,7 @@
 .gamer-home {
     display: flex;
     align-items: center;
-    /* width: 70%; */
+
     color: #0B0223;
     font-weight: 700;
     font-size: 1.2rem;
@@ -99,13 +99,18 @@
     font-style: normal;
     font-weight: 800;
 
+
 }
 
 .para {
     color: #534C64;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
+    padding-left: 15px;
+    margin: 10px 0px;
+
+}
+
+#nd {
+    margin: 10px 0px;
 }
 
 .btn-1 {
@@ -117,10 +122,10 @@
     padding: 11px 25px;
     margin-right: 20px;
     border: none;
-    
+
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    margin-top: 20px;
+    margin-top: 13px;
 
 }
 
@@ -131,31 +136,33 @@
     font-weight: 600;
     padding: 11px 25px;
     border: none;
-    
+
     border-radius: 48px;
     background-color: #4EC5F7;
-    margin-top: 20px;
+    margin-top: 13px;
 
 }
 
-section {
+.section-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 35px 140px ;
-    
+    margin: 35px 140px;
+
 
 }
+
 .title {
     color: #0B0223;
-    
-    
+
+
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
-    
-    
+
+
 }
+
 .img-container img {
     width: 465px;
     height: 451px;
@@ -163,4 +170,306 @@ section {
 
 }
 
-/* Header content ends here */
+/* Header content end here */
+
+/* main section start here */
+/* online section start here */
+.online-img {
+    display: flex;
+    gap: 20px;
+
+
+
+
+
+
+
+
+}
+
+.online-container {
+    margin: 70px 140px 70px 140px;
+
+}
+
+.online-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+
+.para-2 {
+    color: #534C64;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.online-games {
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* online  section end here */
+
+
+
+/* play games starts here */
+.play-games {
+    margin: 150px 140px;
+    display: flex;
+
+}
+
+.img-play-games {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.second-picture {
+    margin-top: -160px;
+    margin-left: 400px;
+    margin-right: 90px;
+}
+
+.play-games-div {
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+.para-3 {
+    color: #534C64;
+
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+
+
+.title-play-games {
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.PG {
+    color: #F948B2;
+
+}
+
+.O {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* play games ends here */
+
+/* buttons section starts from here  */
+
+
+.buttons {
+    margin: 100px 140px;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: center;
+
+
+    row-gap: 20px;
+
+}
+
+.B9 {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 3px 30px 3px 3px;
+
+    border-radius: 35px;
+    border: none;
+    width: 170px;
+
+
+
+}
+
+
+.B9 img {
+    padding-left: 4px;
+    width: 30%;
+}
+
+.btn-span {
+    padding-left: 5px;
+    color: #0B0223;
+
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#b6,
+#b7,
+#b8,
+#b9 {
+    margin-left: 100px;
+}
+
+
+.B9:hover {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    width: calc(170px - 2px - 10px);
+
+
+}
+
+.btn-span:hover {
+    color: #FF42A5;
+
+}
+
+
+
+
+/* buttons section ends from here  */
+
+
+
+
+/* main section end here */
+
+
+
+
+
+/* footer section starts from here  */
+
+.gamer-foot {
+      display: flex; 
+    align-items: center;
+    
+    justify-content: center;
+} 
+
+.para-foot {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+
+}
+
+.foot-bg {
+    background: #0B0223;
+
+    
+    height: 60vh;
+    flex-shrink: 0;
+}
+
+.foot {
+    margin: 0px 140px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.foot-btn {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 60px 250px;
+}
+
+.foot-btn button {
+    font-size: 20px;
+    background: #0B0223;
+    border: none;
+    box-shadow: none;
+}
+
+.terms {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+}
+
+
+
+.copy-right {
+    color: rgba(255, 255, 255, 0.60);
+
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 40px;
+}
+
+.gamer-foot h1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gamer-foot-img {
+    margin: 50px 0px;
+}
+
+/* footer section ends from here  */
+
+
+
+
