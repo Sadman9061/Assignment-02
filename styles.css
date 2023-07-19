@@ -381,11 +381,11 @@
 /* footer section starts from here  */
 
 .gamer-foot {
-      display: flex; 
+    display: flex;
     align-items: center;
-    
+
     justify-content: center;
-} 
+}
 
 .para-foot {
     color: #FFF;
@@ -403,7 +403,7 @@
 .foot-bg {
     background: #0B0223;
 
-    
+
     height: 60vh;
     flex-shrink: 0;
 }
@@ -453,7 +453,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     margin-top: 40px;
 }
 
@@ -473,3 +473,212 @@
 
 
 
+/* bonus starts from here */
+
+/* media query starts from here */
+@media screen and (max-width:425px) {
+
+    .hide {
+        display: none;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .nav-bar,.section-1, .online-img, .play-games-div, 
+    .nav-items  {
+        flex-direction: column;
+         
+         
+        
+        align-items: center;
+    }
+    .nav-items{
+        line-height: 3;
+
+        
+    }
+    .nav-bar{
+        margin-right: 40px;
+    }
+    .follow-us-on{
+        padding: 0px 50px;
+        margin: 10px 70px;
+    }
+
+    .media {
+        
+         margin-left: 50px; 
+    }
+    .img-container{
+        margin-left: 60px;
+
+    }
+    .title {
+        margin: 0px;
+        margin-left: 60px;
+    }
+
+    .online-games {
+        display: inline;
+        font-size: 2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    .play-games-div{
+        
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-play-games  img{
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+        
+        
+        align-items: center;
+    }
+
+    #second-pic {
+        width: 160px;
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+    .buttons {
+        margin: 0px 0px 0px 70px ;
+        padding: 0px;
+        gap: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #b7, #b6 ,#b8 ,#b9 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .foot-bg {
+        
+        height: 130vh;
+        width: 132.5vh;
+        
+    }
+    .foot {
+        margin: 40px;
+        
+    }
+    .para-foot , .foot-btn {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .foot-btn{
+        gap: 25px;
+
+}
+
+
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    body {
+        flex-direction: column;
+    }
+    .nav-bar,.section-1, .online-img, .play-games-div, 
+    .nav-items  {
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+        
+        align-items: center;
+    }
+    .nav-items{
+        line-height: 3;
+
+        
+    }
+    .nav-bar{
+        margin-right: 40px;
+    }
+    .follow-us-on{
+        padding: 5px;
+    }
+
+    .media {
+        
+         margin-left: 50px; 
+    }
+
+    .online-games {
+        display: inline;
+        font-size: 2rem;
+        margin: 0px;
+        padding: 0px;
+    }
+    .play-games-div{
+        
+        flex-direction: column-reverse;
+    }
+    .img-play-games  img{
+        width: 300px;
+        margin: 0px;
+        padding: 0px;
+        
+        
+        align-items: center;
+    }
+
+    #second-pic {
+        width: 160px;
+        margin-left: 200px;
+        margin-top: -50px;
+    }
+    .buttons {
+        margin: 60px;
+        padding: 0px;
+        gap: 0px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #b7, #b6 ,#b8 ,#b9 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .foot-bg {
+        
+        height: 120vh;
+        width: 100;
+    }
+    .foot {
+        margin: 40px;
+        
+    }
+    .para-foot , .foot-btn {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .foot-btn{
+        gap: 25px;
+
+}
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media query ends from here */
+
+
+
+/* bonus ends from here */
